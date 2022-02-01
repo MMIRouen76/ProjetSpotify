@@ -64,6 +64,19 @@ header nav ul li.bar:hover{
     justify-content: center;
 }
 
+#bandeau_upload div h1{
+    font-size: 48px;
+}
+
+.img{
+    width:136px;
+    margin-bottom:40px;
+    margin-top:64px
+}
+.img1{
+    width: 100%;
+}
+
 #bandeau_upload div #button{
     background-color: var(--background-base,#ffffff);
     color: var(--text-base,#000000);
@@ -90,6 +103,57 @@ header nav ul li.bar:hover{
     font-size: 32px;
     line-height: 40px;
     letter-spacing: -0.5px;
+}
+
+#all_plateform{
+    background-color: rgb(34, 35, 38);
+    padding: 70px 15px 50px;
+    color: white;
+}
+#all_plateform #liste{
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+#all_plateform #liste ul{
+    padding-left: 0px;
+}
+#all_plateform #liste ul li{
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+#all_plateform #liste ul li:not(:last-child)::after {
+    font-size: 22px;
+    content: "•";
+    padding-left: 14px;
+    padding-right: 14px;
+    color: rgb(29, 185, 84);
+}
+#all_plateform #liste ul li a{
+    color: rgb(29, 185, 84);
+    text-decoration: underline;
+}
+#all_plateform div{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+#all_plateform div h3{
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.5px;
+}
+
+.devices_img{
+    width: 100%;
+    max-width: 560px;
+    margin-bottom: 20px;
+    padding: 0px 40px;
 }
 
 footer{
