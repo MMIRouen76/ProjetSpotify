@@ -104,6 +104,12 @@ header nav ul li.bar:hover{
     line-height: 40px;
     letter-spacing: -0.5px;
 }
+#plateform_upload div a{
+    margin: 10px;
+}
+#plateform_upload div img{
+    height: 40px;
+}
 
 #all_plateform{
     background-color: rgb(34, 35, 38);
