@@ -48,6 +48,46 @@ header nav ul li.bar:hover{
     cursor: default;
 }
 
+.fymGQK{
+    font-size: 156px;
+}
+
+.qcYsk .fr-lie-copy {
+    width: 835px;
+    text-indent: -2.5em;
+    transform: translate(70px, 0px);
+}
+
+.kKvTd {
+    box-sizing: border-box;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    padding: 0px 0px 0.67em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: -1.75px;
+    line-height: 56px;
+    color: #1ed760;
+}
+
+.hJWOAl {
+    background-color: var(--background-base,#1ed760);
+    color:  rgb(41, 65, 171) ;
+    border-radius: 500px;
+    font-size: inherit;
+    padding: 14px 32px;
+}
+
+.soustitre{
+    width: 800px;
+    color: #1ed760;
+    line-height: 24px;
+    padding-bottom: 40px;
+    font-size: 18px;
+}
 
 .fKGsDq {
     background-image: url("https://www-growth.scdn.co/static/home/bursts.svg");
