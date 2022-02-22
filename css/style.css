@@ -40,14 +40,22 @@ header nav ul li.menu{
 header nav ul li:last-of-type{
     padding-right: 80px;
 }
-header nav ul li.menu:hover{
+header nav ul li.menu:hover:not(.active){
     color: #1ed760;
     cursor: pointer;
 }
 header nav ul li.bar:hover{
     cursor: default;
 }
-
+.active{
+    color: #1ed760;
+}
+.logospot{
+    margin-left:20%;
+}
+#menunav{
+    margin-right:15%;
+}
 /*Bandeau de téléchargement*/
 #bandeau_upload{
     background-color: rgb(25, 230, 140);

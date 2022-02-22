@@ -40,14 +40,24 @@ header nav ul li.menu{
 header nav ul li:last-of-type{
     padding-right: 80px;
 }
-header nav ul li.menu:hover{
+header nav ul li.menu:hover, header nav ul li.menu:hover a{
     color: #1ed760;
     cursor: pointer;
+}
+header nav ul li.menu a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
 header nav ul li.bar:hover{
     cursor: default;
 }
-
+.logospot{
+    margin-left:20%;
+}
+#menunav{
+    margin-right:15%;
+}
 
 .fKGsDq {
     background-image: url("https://www-growth.scdn.co/static/home/bursts.svg");
